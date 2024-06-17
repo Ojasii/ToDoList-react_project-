@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import { TodoForm } from './TodoForm'
+import { TodoForm } from './TodoFormInput'
 import { v4 as uuidv4 } from 'uuid';
-import { Todo } from './Todo';
-import { EditTodoForm } from './EditTodoForm';
+import { Todo } from './TodoItem';
+import { EditTodoForm } from './EditTodoFormInput';
 uuidv4();
 
 export const TodoWrapperLocalStorage = () => {
